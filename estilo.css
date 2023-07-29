@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* Css Documentation */
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: 18px;
+    text-decoration:dashed;}
+
+    body{
+        background-color: rgb(190, 206, 241);
+    }
+    
+    h1{text-align: center; color: blue;}
