@@ -1,0 +1,72 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+body {    color: #003;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62%;
+    background: #09f url("imagenes/fondo_div.png") repeat-x ;
+}
+
+#principal{
+    width: 740px;
+    margin: auto;
+    border: 5px solid rgb(252, 246, 246);
+    padding: 0 20px;
+    background: url(imagenes/fondo.jpg) no-repeat;
+}
+
+#principal h1{    color: rgb(215, 151, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;   }
+
+#principal h1 strong{
+    font-size: 150px;
+    color: white;
+    margin-right: -0.75em;
+}
+
+#principal h2{    font: bold 3.5em 'Helvetica Neue', Helvetica, sans-serif;
+    border-bottom: 2px solid #003;
+    margin-bottom: 25px;}
+
+#principal h3{    color: rgb(234, 113, 113);
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 25px;}
+
+#principal p{    font-size: 1.5em;
+    line-height: 150%;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 10px;}
+
+#principal p::first-line{    font-weight: bold;
+    color: #918a8a;}
+
+#principal ul{    margin: 50px 0 25px 50px;
+    width: 160px;
+    float: right;}
+
+#principal li{    color: rgb(225, 220, 115);
+    font-size: 1.5em;
+    margin-bottom: 10px;}
+
+#principal .autor{    font-size: 1.6em;
+    margin: 5px 0 25px 50px;}
+
+#principal .autor strong{
+    color: red;
+    text-transform: uppercase;
+    }

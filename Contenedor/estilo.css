@@ -1,0 +1,64 @@
+/* reset css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0; /*relleno a 0*/
+    margin: 0;  /*margen a 0 */
+    font-size: 100%;
+    font-weight: normal;
+   }
+   /* fin reset css*/
+
+html{
+    background-color: #0cf;
+    }
+body {
+    background-color: white;
+    border: 6px solid rgb(4, 4, 119);
+    width: 760px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 20px auto 0 auto*/
+    padding: 15px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: #039;
+    text-transform: uppercase;
+    text-align: center ;
+    background-color: rgb(158, 186, 222);
+    border-bottom: 5px solid rgb(18, 18, 185);
+    margin: 5px -17px 20px -17px;
+    padding: 5px 10px 10px 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #63c;
+    border-top: 3px dotted #009;
+    border-bottom: 3px dotted #009;;
+    padding: 5px 1px 5px 1px;
+    margin: 15px 0 5px 1px;
+    overflow: hidden;
+}
+
+.lateral{
+    width: 30%;
+    float: right;
+    background-color: #9cf;
+    border:3px dotted #099;
+    padding: 10px 20px;
+    margin: 10px;
+    border-top: 20px solid #099;
+}
+
+.lateral h2{
+    border: none;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
